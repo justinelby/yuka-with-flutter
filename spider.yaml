@@ -1,0 +1,10 @@
+# Install Spider with: pub global activate spider
+# Then the generator: spider build --watch --verbose
+no_comments: true
+package: ui/resources
+
+groups:
+  - path: res/drawables
+    class_name: AppImages
+    package: res
+    types: [ .png, .webp ]
